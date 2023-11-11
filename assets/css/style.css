@@ -1,0 +1,155 @@
+/*FUENTES DE GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+/* INICIO DECLARACION DE ESTILOS HEADER*/
+header
+{
+    text-align: center;
+}
+
+.header h1{
+    font-weight:500;
+    font-size: 60px;
+}
+/* FIN DECLARACION DE ESTILOS HEADER*/
+
+/* INICIO DECLARACIÓN DE ESTILOS PARA IMAGEN DE PORTADA HERO)*/
+.hero_image img
+{
+    width: 100%;
+}
+/* FIN DECLARACIÓN DE ESTILOS PARA IMAGEN DE PORTADA HERO)*/
+
+
+/* INICIO DECLARACIÓN DE ESTILOS PARA SECCIÓN DESCRIPCION */
+.seccion_descripcion{
+margin: 0 auto;
+padding: 50px 120px 50px 120px;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+align-items: center;
+column-gap:106px;
+}
+
+.caja_parrafo{
+width: 100%;
+font-size: 1.2rem;
+font-weight: 100;
+}
+
+.caja_imagen{
+width: 41%;
+}
+/* FIN DECLARACIÓN DE ESTILOS PARA SECCIÓN DESCRIPCION */
+
+/* INICIO DECLARACIÓN DE ESTILOS PARA SECCIÓN CARACTERÍSTICAS */
+.seccion_caracteristicas{
+    background-color: #1E1A13;
+    width: 100%;
+    padding: 73px 0px 73px 0px; 
+}
+
+.seccion_caracteristicas h1{
+    text-align: center;
+    font-weight:500;
+    font-size: 40px;
+    padding: 0PX 0px 50px 0px;  
+}
+
+.contenedor_caracteristicas_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor_caracteristicas_2 div{
+    flex: 1;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_caracteristicas_2 div:nth-child(1){
+    flex-grow: 10;
+}
+.contenedor_caracteristicas_2 div:nth-child(3){
+    flex-grow: 10;
+}
+
+/* Otra alternativa para alinear los contenedores dejando el elemento del medio totalmente centrado al viewport*/
+/*
+.contenedor_caracteristicas_2 div{
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_caracteristicas_2 div:nth-child(2){
+    flex-grow: 0;
+}
+*/
+
+.seccion_caracteristicas_3{
+
+    background-color: #1E1A13;
+    padding: 73px 0px 73px 0px; 
+}
+.contenedor_caracteristicas_3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 11%;
+    /*padding-left: 70px;*/
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+
+.card h3{
+    font-weight:100;
+    font-size: 24px;
+}
+
+/* FIN DECLARACIÓN DE ESTILOS PARA SECCIÓN CARACTERÍSTICAS */
+
+/* INICIO DESCRIPCIÓN ESTILOS GALERÍA */
+.seccion_galeria
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px 120px 70px 120px;
+    gap:1rem;
+}
+.seccion_galeria img{
+   width: 100%;
+}
+/* FIN DESCRIPCIÓN ESTILOS GALERIA */
+
+/* INICIO DESCRIPCIÓN ESTILOS FOOTER */
+.footer{
+    padding: 2rem;
+    background-color: #1E1A13;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+/* FIN DESCRIPCIÓN ESTILOS FOOTER */
